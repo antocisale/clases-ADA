@@ -9,6 +9,29 @@
     vertical-align:top;
     border: 1px solid black;
     width: 33%;
-    max-height: 100%;
+}
+.altura{
+    height: 150px;
+}
+/* hijos directos solo del class*/
+
+.container > .columna.altura{
+    height:350px;
+}
+.box-model{
+width:360px;
+padding: 5px;
+border: 5px solid red;
+margin: 5px;
 
 }
+.circle{
+border: 10px solid blue;
+border-radius:  50%;
+width: 150px;
+height:150px;} /* hacer que sea un circulo*/
+
+
+
+
+
