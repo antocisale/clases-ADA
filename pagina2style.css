@@ -1,0 +1,14 @@
+.borde1{
+    border-width: 2px;
+    border-style: groove;
+    border-color: red;
+    padding: 25px;
+}
+.columna{
+    display:inline-block;
+    vertical-align:top;
+    border: 1px solid black;
+    width: 33%;
+    max-height: 100%;
+
+}
