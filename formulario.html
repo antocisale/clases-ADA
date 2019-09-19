@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="formulariostyle.css">
+    </head>
+    <body>
+        <form>
+            <label for="name" class="formulario"> Nombre <br>
+                <input type="text" value="" name="name" id="name" placeholder="Tu nombre">
+            </label>
+            
+            <label for="lastname" class="formulario"> Apellido<br>
+                <input type="text" value="" name="lastname" id="lastname" placeholder="Tu Apellido">
+            </label>
+            
+            <label for="age" class="formulario"> Edad <br>
+                <input type="number" value="" id="age" name="age" min="18" max="95">
+            </label>
+
+            <label for="birthdate" class="formulario">Fecha de Nacimiento <br>
+                <input type="date" value="" id="birthdate" name="birthdate">
+            </label>
+
+            <label for="mail" class="formulario">Correo electrónico <br>
+                <input type="email" value="" id="mail" name="mail" placeholder="ejemplo@mail.com">
+            </label>
+
+            <label for="address" class="formulario">Dirección <br>
+                <input type="text" value="" name="address" id="address">
+            </label>
+
+            <label for="local" class="formulario"> Localidad <br>
+                <select name="localidad" id="local">
+                    <option>CABA</option>
+                    <option>GBA</option>
+                    <option>Interior</option>
+                </select>
+            </label>
+
+            <label for="cellphone" class="formulario">¿Tenés celular?<br>
+                <input type="radio" name="cellphone" value="SI">Si
+                <input type="radio" name="cellphone" value="NO">No
+            </label>
+            <br>
+            <button type="submit">Enviar</button>  
+        
+        </form>
+        <br>
+            <div class="circulo una-linea">1</div>
+            <div class="circulo circulo2 una-linea">2</div>
+            <div class="circulo circulo3 una-linea">3</div>
+            <div class="circulo circulo4 una-linea">4</div>
+       
+        <br>
+            <div class="circulo"><span class="varias-lineas">Probando estilos</span>
+            </div>
+            <div class="circulo circulo2"><span class="varias-lineas">Probando estilos 2</span>
+            </div>
+            <div class="circulo circulo3 circulo5"><span>Probando estilos 3</span>
+            </div>
+            <div class="circulo circulo4"><span class="varias-lineas">Probando estilos 4</span>
+            </div>
+        
+    </body>
+</html>

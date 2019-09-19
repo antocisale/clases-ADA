@@ -1,0 +1,49 @@
+.formulario{
+    display:block;
+    line-height:2;
+}
+
+form{
+    max-height:500px;
+    overflow:scroll;
+}
+.clearfix{
+    clear:both;
+}
+.circulo{
+    border-radius: 50%;
+    border:1px solid cornflowerblue;
+    background: cornflowerblue;
+    width:100px;
+    height:100px;
+    display:inline-block;
+    text-align:center;
+}
+.circulo2{
+    background: coral;
+    border-color:coral;
+    margin-left:-25px;
+}
+.circulo3{
+    background: orange;
+    border-color: orange;
+    border-radius:50px;
+    width:500px;
+    margin-left:-25px;
+}
+.circulo4{
+    background:palegreen;
+    border-color:palegreen;
+    float:right;
+}
+.una-linea{
+    line-height:100px;
+}
+/*.circulo5{
+    position:relative;
+    top:-20px;
+}*/
+.varias-lineas{
+    text-align:center;
+  
+}
